@@ -1,0 +1,80 @@
+body{
+    margin:5px 20px 5px 20px;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #acb8b9, #00bfff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    height: 100vh;
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.p-color ,#navbarDropdownMenuLink{
+   color: black;
+   font-size: 20px;
+   border: black;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.Main-img{
+    margin-top: 80px;
+    margin-left: 0px;
+    height: 400px;
+}
+
+.Main-text{
+    margin-left: 35px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    color:rgb(33, 6, 6);
+    animation: 
+    typing 2s steps(25) alternate infinite,
+    cursor .4s linear infinite,
+    line 2s infinite ;
+}
+@keyframes cursor {
+    50% { border-color : transparent}
+    
+}
+@keyframes typing{
+    to{
+        width:0%;
+    }
+
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    70% {
+        width: 100%;
+    }
+}  
+
+.main-graph{
+background-color: red;
+
+}
